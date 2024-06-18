@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", sans-serif;
+}
+
+nav {
+    height: 10vh;
+    background-color: rgb(145, 145, 145);
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20vw;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(shipka.jpg);
+    height: 90vh;
+    background-size: cover;
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+section h1 {
+    text-align: center;
+}
+
+section button {
+    background-color: darkgreen;
+    padding: 20px;
+    font-size: 1.2rem;
+    color: white;
+    border-style: none;
+    border-radius: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+section button:hover {
+    background-color: rgb(0, 56, 0);
+}
